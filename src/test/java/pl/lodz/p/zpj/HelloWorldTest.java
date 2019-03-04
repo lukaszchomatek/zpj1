@@ -9,6 +9,6 @@ public class HelloWorldTest
     @Test
     public void sayHelloTest() {
         HelloWorld hw = new HelloWorld();
-        org.junit.Assert.assertEquals("Hello ", hw.sayHello(""));
+        org.junit.Assert.assertEquals("Hello", hw.sayHello(""));
     }
 }
